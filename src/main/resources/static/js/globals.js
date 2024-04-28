@@ -112,31 +112,6 @@ let ramTriangle;
 let storageTriangle;
 
 /**
- * Used to determine current page
- */
-let currentPage;
-
-/**
- * Used to select pages
- */
-let firstControl;
-
-/**
- * Used to select pages
- */
-let secondControl;
-
-/**
- * Used to determine logo page
- */
-let logoPage;
-
-/**
- * Used to determine info page
- */
-let contactsPage;
-
-/**
  * Used to determine left cloud
  */
 let cloudLeft
