@@ -3,24 +3,24 @@
     <head>
         <meta charset = "UTF-8">
         <title th:text = "${serverName}"></title>
-        <link rel = "shortcut icon" type = "image/x-icon" th:href = "@{/img/ico/favicon.ico}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/assets/bootstrap.min.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/animations.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/colors.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/dimensions.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/fonts.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/gradients.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/layout.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/shadows.css}" />
-        <link rel = "stylesheet" type = "text/css" th:href = "@{/css/themes.css}" />
-        <script type = "text/javascript" th:src = "@{/js/assets/chart.min.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/assets/three.min.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/assets/vanta.min.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/background.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/chart.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/globals.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/index.js}"></script>
-        <script type = "text/javascript" th:src = "@{/js/labels.js}"></script>
+        <link rel = "shortcut icon" type = "image/x-icon" th:href = "@{./img/ico/favicon.ico}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/assets/bootstrap.min.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/animations.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/colors.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/dimensions.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/fonts.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/gradients.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/layout.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/shadows.css}" />
+        <link rel = "stylesheet" type = "text/css" th:href = "@{./css/themes.css}" />
+        <script type = "text/javascript" th:src = "@{./js/assets/chart.min.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/assets/three.min.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/assets/vanta.min.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/background.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/chart.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/globals.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/index.js}"></script>
+        <script type = "text/javascript" th:src = "@{./js/labels.js}"></script>
         <script type = "text/javascript" th:inline = "javascript"> globalsInitialization(); </script>
     </head>
     <body id = "background">
@@ -187,8 +187,8 @@
                 <div class = "col-sm-12 col-md-6 col-lg-6 col-xl-4 sm-hidden">
                     <div class = "card">
                         <div class = "controls">
-                            <img id = "first-control" class = "first" th:src = @{/img/controls/left.png} />
-                            <img id = "second-control" class = "second" th:src = @{/img/controls/right.png} />
+                            <img id = "first-control" class = "first" th:src = @{./img/controls/left.png} />
+                            <img id = "second-control" class = "second" th:src = @{./img/controls/right.png} />
                         </div>
                         <div class = "pages">
                             <div id = "logo-page" class = "first">
@@ -203,19 +203,19 @@
                                 </div>
                                 <div class = "contacts-links">
                                     <a href = "https://github.com/AntonyLeons/Ward">
-                                        <img class = "first" th:src = @{/img/links/github.png} />
+                                        <img class = "first" th:src = @{./img/links/github.png} />
                                     </a>
                                     <a href = "https://t.me/leonsdev">
-                                        <img class = "second" th:src = @{/img/links/telegram.png} />
+                                        <img class = "second" th:src = @{./img/links/telegram.png} />
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class = "clouds">
-                            <img id = "cloud-left" class = "first" th:src = @{/img/logo/clouds/left.png} />
-                            <img id = "cloud-right" class = "second" th:src = @{/img/logo/clouds/right.png} />
+                            <img id = "cloud-left" class = "first" th:src = @{./img/logo/clouds/left.png} />
+                            <img id = "cloud-right" class = "second" th:src = @{./img/logo/clouds/right.png} />
                         </div>
-                        <img class = "background" th:src = @{/img/logo/background.png} />
+                        <img class = "background" th:src = @{./img/logo/background.png} />
                         <div class = "uptime">
                             <div class = "uptime-squares-grid">
                                 <div class = "first"></div>
